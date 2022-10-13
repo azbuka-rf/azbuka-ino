@@ -2,7 +2,7 @@
 import serial
 ser = serial.Serial()
 ser.baudrate = 115200
-ser.port = '/dev/ttyUSB6'
+ser.port = '/dev/ttyUSB0'
 print(ser)
 ser.dtr = None
 ser.rts = None
